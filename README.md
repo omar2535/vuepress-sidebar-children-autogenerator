@@ -1,0 +1,2 @@
+# Vuepress sidebar children autogenerator
+

@@ -1,0 +1,14 @@
+{
+  "name": "@omar2535/vuepress-sidebar-children-autogenerator",
+  "version": "1.0.0",
+  "description": "Auto generates children for vuepress sidebars",
+  "license": "MIT",
+  "repository": "omar2535/vuepress-sidebar-children-autogenerator",
+  "main": "index.js",
+  "keywords": [
+    "vuepress-sidebar",
+    "npm",
+    "package",
+    "omar2535"
+  ]
+}
