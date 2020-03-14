@@ -12,7 +12,8 @@
     "vuepress-sidebar",
     "npm",
     "package",
-    "omar2535"
+    "yarn"
   ],
-  "author": "Omar Tsai <omar2535@alumni.ubc.ca>"
+  "author": "Omar Tsai <omar2535@alumni.ubc.ca>",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }

@@ -1,20 +1,27 @@
 # Sidebar children autogenerator for vuepress
 
-![npm (scoped)](https://img.shields.io/npm/v/@omar2535/vuepress-sidebar-children-autogenerator)
-![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@omar2535/vuepress-sidebar-children-autogenerator)
+![https://www.npmjs.com/package/@omar2535/vuepress-sidebar-children-autogenerator](https://img.shields.io/npm/v/@omar2535/vuepress-sidebar-children-autogenerator)
+![https://www.npmjs.com/package/@omar2535/vuepress-sidebar-children-autogenerator](https://img.shields.io/bundlephobia/min/@omar2535/vuepress-sidebar-children-autogenerator)
+[![GitHub license](https://img.shields.io/github/license/omar2535/vuepress-sidebar-children-autogenerator)](https://github.com/omar2535/vuepress-sidebar-children-autogenerator/blob/master/LICENSE)
 
-Creates a children object so that you won't have to do it manually
+Creates children objects so that you won't have to do it manually
 
 # Install
 
+via NPM
 ```sh
 npm i @omar2535/vuepress-sidebar-children-autogenerator
+```
+
+via YARN
+```sh
+yarn add @omar2535/vuepress-sidebar-children-autogenerator
 ```
 
 # Usage
 
 ```js
-let { generateChildren } = require('@omar2535/vuepress-sidebar-children-autogenerator');
+let childrenGenerator = require('@omar2535/vuepress-sidebar-children-autogenerator');
 ```
 
 then in `.vuepress/config.js`, if we had a directory structure like so:
@@ -34,17 +41,15 @@ adding the following to the sidebar config like so:
 ```js
 sidebar: 
 {
-  
-  '/notes/': generateChildren('/notes/'),
+  '/notes/': childrenGenerator('/notes/'),
 }
 ```
 
-would result in a replacement like:
+would result in a conversion like this when compiled:
 
 ```js
 sidebar: 
 {
-  
   '/notes/': [
     {
       title: 'course_notes',

@@ -42,4 +42,4 @@ function generateChildren(basePath, collapsable, filesToExclude, directoriesToEx
     directoriesToExclude || ['.vuepress', 'node_modules', '.git']);
 }
 
-module.exports.generateChildren = generateChildren;
+module.exports = generateChildren;
