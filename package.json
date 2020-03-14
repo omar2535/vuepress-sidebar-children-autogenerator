@@ -3,12 +3,16 @@
   "version": "2.0.0",
   "description": "Auto generates children for vuepress sidebars",
   "license": "MIT",
-  "repository": "omar2535/vuepress-sidebar-children-autogenerator",
+  "repository": {
+    "url": "omar2535/vuepress-sidebar-children-autogenerator",
+    "type": "git"
+    } ,
   "main": "index.js",
   "keywords": [
     "vuepress-sidebar",
     "npm",
     "package",
     "omar2535"
-  ]
+  ],
+  "author": "Omar Tsai <omar2535@alumni.ubc.ca>"
 }
