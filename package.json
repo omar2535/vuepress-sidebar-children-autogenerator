@@ -1,6 +1,6 @@
 {
   "name": "@omar2535/vuepress-sidebar-children-autogenerator",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Auto generates children for vuepress sidebars",
   "license": "MIT",
   "repository": {
