@@ -6,19 +6,21 @@
 
 Creates children objects so that you won't have to do it manually
 
-# Install
+## Install
 
 via NPM
+
 ```sh
 npm i @omar2535/vuepress-sidebar-children-autogenerator
 ```
 
 via YARN
+
 ```sh
 yarn add @omar2535/vuepress-sidebar-children-autogenerator
 ```
 
-# Usage
+## Usage
 
 ```js
 let childrenGenerator = require('@omar2535/vuepress-sidebar-children-autogenerator');
@@ -62,10 +64,11 @@ sidebar:
 }
 ```
 
-# Parameters
-|  Param | Required?  | Default  | Result  | 
+## Parameters
+
+|  Param | Required?  | Default  | Result  |
 |---|:-:|---|---|
 |  basePath |  True | N/A  |  Base path of folder to generate children from  |
 | collapsable  |  false | true  | Whether the children will be collapsable if any subfolders were found  |
-| filesToExclude  | false  | ["readme .md"]  |  Excludes file names contained in the array |
+| filesToExclude  | false  | ["readme .md"]  |  Excludes file names contained in the array. Is **NOT** case sensitive, so files with the same name but difference case will be ignored |
 | directoreisToExclude| false | [".vuepress", "node_modules", ".git"] | Excludes folder names contained in the array |

@@ -15,7 +15,7 @@ function generateSidebarContents(dirPath, children, collapsable, filesToExclude,
         });
       }
     } else {
-      if (path.extname(file.name) === ".md" && !filesToExclude.includes(file.name.toLowerCase())) {
+      if (path.extname(file.name) === ".md" && !filesToExclude.includes(file.name.toLowerCase()) && !filesToExclude.includes(file.name)) {
         children.push(fullPath.slice(1, -1));
       }
     }
