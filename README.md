@@ -1,4 +1,4 @@
-# Sidebar children autogenerator for vuepress
+# Vuepress Sidebar children auto-generator
 
 ![https://www.npmjs.com/package/@omar2535/vuepress-sidebar-children-autogenerator](https://img.shields.io/npm/v/@omar2535/vuepress-sidebar-children-autogenerator)
 ![https://www.npmjs.com/package/@omar2535/vuepress-sidebar-children-autogenerator](https://img.shields.io/bundlephobia/min/@omar2535/vuepress-sidebar-children-autogenerator)
